@@ -1,0 +1,315 @@
+/* Media Queries for Bande Matram */
+
+@media only screen and (max-width: 1344px) {
+    body{
+        background-color: red;
+    }
+    .usa{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1336px) {
+
+    /* Header Section */
+    .container{
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .header-menu{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* End of Header Section */
+    .news-title::before{
+        width: calc(100% + -5px);
+        left: -5px;
+    }
+}
+
+
+
+@media only screen and (max-width:1280px) {
+    .photo{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 1124px) {
+    .photo{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+
+    /* Featured Section Start */
+    .img{
+        height: 440px;
+    }
+    .featured-img{
+        height: 440px;
+    }
+    /* End of Featured Section */
+    .carousel-nav{
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 1088px) {
+
+    /* Dropdown Section Start */
+    .row-drop{
+        display: block;
+    }
+    .col-md-1{
+        width: auto;
+    }
+    .col-md-4{
+        width: auto;
+    }
+    .dropdown-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .dropdown-trend{
+        text-align: center;
+    }
+    .col-md-13{
+        justify-content: center;
+    }
+    /* End of Dropdown Section */
+}
+
+@media only screen and (max-width:1024px) {
+    .footer-col-title3::before{
+        bottom: 45px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:1020px) {
+    .first-row{
+        display: block;
+    }
+    .fi-pic{
+        text-align: center;
+    }
+    .fi-pic img{
+        width: 100%;
+    }
+    .bottom-med{
+        margin-bottom: 10px;
+    }
+    .india{
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    .patna{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:972px) {
+    .photo{
+        width: 250px;
+    }
+    .ex-img{
+        width: 370px;
+    }
+    .sec-left{
+        position: relative;
+        bottom: 62px;
+        width: 30%;
+        border-right: none;
+    }
+    .explain-cont{
+        display: block;
+        text-align: center
+    }
+    .col-ex{
+        display: inline-block;
+    }
+
+    .row{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+
+    /* Navigation Bar Section Start */
+    .nav-list{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .nav-item::before{
+        width: 50px;
+    }
+    /* End of Navigation Bar Section */
+
+    /* Featured Section Start */
+    .title-patch{
+        font-size: 1.9rem;
+    }
+    .featur-tit{
+        width: 60%;
+        font-size: 1.9rem;
+    }
+    /* End of Featured Section */
+
+    .edi-ele{
+        width: 56%;
+        position: relative;
+        left: 25px;
+    }
+
+    .col-xd{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+  .element{
+    display: inline-flex;
+  }
+  .filament{
+    width: 56%;
+    position: relative;
+    left: 25px;
+  }
+
+  
+}
+
+@media only screen and (max-width:820px) {
+    .arrow{
+        display: block;
+    }
+}
+
+@media only screen and (max-width:832px) {
+    .row{
+        display: block;
+    }
+    .col-k2{
+        display: none;
+    }
+    .l-col{
+        display: none;
+    }
+    .footer-col-title3::before{
+        bottom: 25px;
+        width: 240px;
+    }
+
+    .footer-col-title::before{
+        display: none;
+    }
+   
+    
+}
+
+@media only screen and (max-width:884px) {
+    .Copyright{
+        display: block;
+    }
+}
+
+
+
+@media only screen and (min-width:824px) {
+    .col-md-b{
+       
+    width: 16.66666667%;
+    }
+}
+@media only screen and (min-width:1200px) {
+    .col-md-a{
+       
+    width: 16.66666667%;
+    }
+}
+
+@media only screen and (max-width:1140px) {
+.col-md-b{
+    flex: 0 0 auto;
+}
+}
+
+@media only screen and (max-width:668px) {
+    .row-container{
+        justify-content: normal;
+    }
+    .logo-img{
+        height: 83px;
+        width: 268px;
+    }
+    .logo-text{
+        font-size: 1rem;
+    }
+    .nav-cont{
+        display: none;
+    }
+    .header-menu{
+        display: flex;
+        justify-content: end;
+        position: relative;
+        bottom: 37px;
+    }
+    #moon{
+        right: 25px;
+    }
+    .usa{
+        display: block;
+    }
+    .india{
+        display: block;
+    }
+}
+
+@media only screen and (max-width:624px) {
+.element{
+    display: block;
+}
+
+.pict{
+    width: auto;
+}
+.photo{
+    width: 100%;
+}
+.edi-ele{
+    width: 86%;
+}
+
+}
+
+@media only screen and (max-width:426px) {
+    .footer-logo{
+        display: block;
+    }
+    .footer-img{
+        height: 85px;
+        width: 245px;
+    }
+    .col-md{
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width:324px) {
+    .logo-img{
+        height: 60px;
+        width: 190px;
+    }
+    .logo-text{
+        font-size: 0.75rem;
+    }
+    .carousel-item{
+        width: 210px;
+    }
+}
